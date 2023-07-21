@@ -1,0 +1,287 @@
+*{
+    scroll-behavior:smooth;
+    color: #333333;
+    text-shadow: 1px 1px 1px #100f11;
+    white-space: normal;
+    font-family: 'Nunito Sans', sans-serif;
+    /* font-family: Arial, sans-serif; */
+}
+html {
+    /* background: linear-gradient(to left, #D65DB1, #845EC2); */
+    background-image: radial-gradient(circle, #E1B0AC, #F2D4D6);
+    font-size: 80%; 
+}
+
+#one, #three {
+  font-size: 4rem;
+  /* color: #00FFFF; */
+  color: #213F99;
+    
+}
+
+#two {
+    font-size: 2.3rem;
+    overflow: hidden; 
+    border-right: 0.15em solid #99908d; 
+    white-space: nowrap; 
+    margin: 0 auto; 
+    animation: typing 5s steps(40, end), blink-caret 0.75s step-end infinite;
+}
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: #99908d;
+  }
+}
+
+p, i {
+  text-shadow: none;
+}
+
+p {
+  font-size: 2rem;
+  font-weight: 480;
+}
+
+header {
+    height: 300px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#portfolio {
+  height: 200px;
+  width: 250px;
+  border-radius: 20%;
+}
+
+.portfolio_img {
+  padding: 20px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  h2, h3 {
+    margin: 0;
+  }
+  h2 {
+    color: #213F99;
+    font-size: 3.18rem;
+    padding: 40px 0px;
+  }
+  h3 {
+    font-size: 2.7rem;
+    color: #4B0082;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+nav {
+    /* background-color: #FF6F916a; */
+    background-color: #c33a7c1a;
+    padding: 5px;
+    top: 0px;
+    font-size: 1.4rem;
+    position: sticky;
+    width: 100%;
+    z-index: 100;
+  }
+
+.icon {
+  height: 20px;
+  width: 20px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+}
+  
+  nav ul li {
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #4B0082;
+  }
+  
+nav ul li a:hover {
+    color: #995a24;
+    transition: 0.2s;
+  }
+
+section {
+    padding: 40px;
+    text-align: center;
+  }
+  .logo {
+    height: 20px;
+    width: 20px;
+    filter: brightness(120%);
+    filter: contrast(120%);
+    filter: drop-shadow(1px 1px 1px black);
+  }
+  #gmail {
+    height: 18px;
+    width: 20px;
+  }
+  a {
+    text-decoration: none;
+    color: #4B0082;
+    font-weight: 600;
+    text-shadow: none;
+  }
+
+footer {
+    /* background-color: #FF6F9190; */
+    background-color: #c33a7c1a;
+    color: #F7DDED;
+    padding: 10px;
+    font-size: 25px;
+    text-align: center;
+  }
+
+@media (max-width: 886px) {
+    html {
+      font-size: 75%;
+    }
+      #portfolio{
+        height: 170px;
+        width: 210px;
+      }
+  }
+
+@media (max-width: 780px) {
+  html {
+    font-size: 70%;
+  }
+  #portfolio{
+    height: 150px;
+    width: 178px;
+  }
+}
+
+@media (max-width: 760px) {
+  html {
+    font-size: 65%;
+  }
+  #portfolio{
+    height: 140px;
+    width: 160px;
+  }
+}
+
+@media (max-width: 700px) {
+  html {
+    font-size: 58%;
+  }
+  #portfolio{
+    height: 130px;
+    width: 145px;
+  }
+}
+
+@media (max-width: 630px) {
+  html {
+    font-size: 54%;
+  }
+  #portfolio{
+    height: 125px;
+    width: 136px;
+  }
+}
+
+@media (max-width: 580px) {
+  html {
+    font-size: 54%;
+  }
+  .Hero {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  #portfolio{
+    height: 125px;
+    width: 136px;
+  }
+}
+
+@media (max-width: 460px) {
+  html {
+    font-size: 50%;
+  }
+  .Hero {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  #portfolio{
+    height: 125px;
+    width: 136px;
+  }
+}
+
+@media (max-width: 400px) {
+  html {
+    font-size: 48%;
+  }
+  .Hero {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  #portfolio{
+    height: 125px;
+    width: 136px;
+  }
+}
+
+@media (max-width: 380px) {
+  html {
+    font-size: 42%;
+  }
+  .Hero {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  #portfolio{
+    height: 125px;
+    width: 136px;
+  }
+}
+
+@media (max-width: 320px) {
+  html {
+    font-size: 42%;
+    gap:50%;
+    flex-wrap: wrap;
+  }
+  .Hero, #three, #two {
+    display: flex;
+    flex-wrap: wrap;
+    white-space: normal;
+  }
+  #portfolio{
+    height: 125px;
+    width: 136px;
+  }
+}
