@@ -96,7 +96,7 @@ body {
 nav {
     /* background-color: #FF6F916a; */
     background-color: #c33a7c1a;
-    padding: 5px;
+    padding: 5px 10px;
     top: 0px;
     font-size: 1.4rem;
     position: sticky;
