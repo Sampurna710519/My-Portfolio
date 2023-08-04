@@ -69,6 +69,21 @@ header {
   padding: 20px;
 }
 
+.download-link {
+  height: 20px;
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #213F99;
+  color: #fff;
+  /* text-decoration: none; */
+  border-radius: 10px;
+  box-shadow: 1px 1px 1px #100f11;
+}
+
+.download-link:hover {
+  background-color: #0056b3;
+}
+
 body {
     margin: 0;
     padding: 0;
